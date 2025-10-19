@@ -1,0 +1,79 @@
+*{
+     box-sizing: border-box;
+    font-family: Tahoma;
+    
+    color: rgba(255, 255, 255, 255);
+}
+body{
+    width: 80%;
+    margin: 60px;
+    background: green;
+    color: black;
+}
+.logo{
+    align-items: center;
+}
+ article{
+    padding: 500px;
+    
+}
+input, button{
+    width: auto;
+    padding: 10px 30px ;
+}
+.logo img{
+    display: flex;
+    justify-content: center;
+}
+form button{
+    font-size: 15px;
+}
+.banner {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+
+
+footer p{
+    color: blue;
+    font-size: 20px;
+    background-color: azure;
+    text-align: center;
+
+
+}
+.features{
+    text-decoration: none;
+    justify-content: space-around;
+}
+.logo img{
+    width: 25%;
+    
+    
+}
+nav{
+    flex:1;
+    text-align: center;
+}
+.text{
+    color: black;
+
+}
+nav{
+    border-radius: 2px;
+    color: blue;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+article{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
