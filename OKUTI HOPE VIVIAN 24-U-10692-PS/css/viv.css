@@ -1,79 +1,121 @@
-*{
-     box-sizing: border-box;
+
+*{ 
+    box-sizing: border-box;
     font-family: Tahoma;
-    
     color: rgba(255, 255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px;
 }
-body{
-    width: 80%;
-    margin: 60px;
-    background: green;
+/*viv.css*/
+p, h1, h2, h6, li, h4, legend, button, label{
     color: black;
 }
-.logo{
-    align-items: center;
+
+body{
+    width: 80%;
+    margin: 50px auto;
+    background: radial-gradient(floralwhite, rgb(68, 128, 0));
+    
+
 }
- article{
-    padding: 500px;
+h4, h3, h2 {
+    text-align: center;
+}
+
+.article{ 
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
     
 }
 input, button{
     width: auto;
     padding: 10px 30px ;
-}
-.logo img{
-    display: flex;
-    justify-content: center;
-}
-form button{
-    font-size: 15px;
-}
-.banner {
-    width: 100%;
-    max-width: 800px;
-    display: block;
-    margin: 0 auto;
+    background: aliceblue;
+    color: black;
+    text-align: center;
     
+}
+.form-details{
+    
+    width: 100%;
 
 }
+.response{
+    width:100% ;
+    display: block;
+}
+.logo-container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;   
+}
 
+
+.contact {
+    text-align: left;
+    font-style: oblique;
+}
 
 footer p{
-    color: blue;
+    color: white;
     font-size: 20px;
-    background-color: azure;
     text-align: center;
-
+    background: green;
 
 }
-.features{
+   header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+nav{
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 20px;
+    background: green;
+    text-align: right;
     text-decoration: none;
     justify-content: space-around;
 }
-.logo img{
-    width: 25%;
-    
-    
-}
-nav{
-    flex:1;
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
     text-align: center;
 }
-.text{
-    color: black;
+.card{
+    background-color: green;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    text-align: center;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
 
 }
-nav{
-    border-radius: 2px;
-    color: blue;
-    padding: 10px;
-    font-size: 20px;
-    text-align: right;
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
 }
-article{
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: rgba(0, 0, 0, 0.1);
+.card p{
+    color: black;
+    font-size: 0.95em;
+    padding: 0 10px 15px;
+    text-align: center;
+}
+.card h2{
+    font-size: 1.2em;
+    margin: 15px 0 5px;
+    color: black;
+    text-align: center;
 }
